@@ -1,8 +1,7 @@
 <template>
     <div>
-        <jet-banner />
 
-        <div class="min-h-screen bg-gray-100">
+        <div>
             <nav class="bg-white border-b border-gray-100">
                 <!-- Primary Navigation Menu -->
                 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -220,15 +219,6 @@
                     <slot name="header"></slot>
                 </div>
             </header>
-
-            <!-- Page Content -->
-            <main>
-                <slot></slot>
-            </main>
-
-            <!-- Modal Portal -->
-            <portal-target name="modal" multiple>
-            </portal-target>
         </div>
     </div>
 </template>

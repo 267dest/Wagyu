@@ -32,9 +32,10 @@
 
 <body class="font-sans antialiased">
     @inertia
+ @if (Auth::check())
+
 
 <div class="container">
-
 
 
     <div class="panel panel-primary">
@@ -118,6 +119,7 @@
     </div>
 
 </div>
+@endif
 
 </body>
 

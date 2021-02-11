@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    
+
 
     <title>Image upload</title>
 
@@ -16,8 +16,6 @@
 <body>
 
 <div class="container">
-
-
 
     <div class="panel panel-primary">
 
